@@ -1,7 +1,4 @@
 #!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
 
 
 import geopandas as gpd 
@@ -18,7 +15,7 @@ df.geometry = df.geometry.buffer(2500).envelope
 df.to_crs("epsg:4326").to_file(r"C:\\Users\\Harshit\\Desktop\\grid.geojson")
 
 
-# In[ ]:
+
 
 
 
