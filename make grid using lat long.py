@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-
 import geopandas as gpd 
 
 lat, lon = 20.5937, 78.9629  # put desired lat long
